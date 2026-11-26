@@ -2,6 +2,7 @@ import sys, matplotlib.pyplot as plt, networkx as nx
 from matplotlib.patches import FancyArrowPatch
 
 # === Definición del DFA ===
+#actualzar.................................
 states = {"q0","q1","q2","q3","q4"}
 alphabet = {"a","b"}
 delta = {("q0","a"):"q1", 
@@ -70,3 +71,5 @@ if __name__=='__main__':
         plt.ioff(); plt.show()
     except Exception as e:
         print("RECHAZA:", e)
+
+        #
